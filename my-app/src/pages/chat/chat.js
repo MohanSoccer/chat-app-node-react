@@ -176,7 +176,16 @@ const Chat = () => {
                   <div class="modal-body">
                      <ul class="list-group">
                         {users.map((val) => (
-                           <li class="list-group-item">{val.user}</li>
+                           <li class="list-group-item list-group-item-action">
+                              {val.user}
+                              {val.user?.toLowerCase() ==
+                                 user?.toLowerCase() && (
+                                 <>
+                                    {" "}
+                                    - <span className="text-success"> You</span>
+                                 </>
+                              )}
+                           </li>
                         ))}
                      </ul>
                   </div>
