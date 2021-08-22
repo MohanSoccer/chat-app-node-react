@@ -21,4 +21,3 @@
 1. [jwt](https://www.youtube.com/watch?v=NbR05Acbvfs&t=1034s)
 1. [Deno](https://www.youtube.com/watch?v=WDvJunTAVz8&t=54s)
 1. [React-Hooks](https://www.youtube.com/watch?v=db0s0SHcoFA&t=32s)
-
